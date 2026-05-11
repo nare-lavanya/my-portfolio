@@ -33,7 +33,7 @@ export function Contact() {
           </p>
 
           <a
-            href="mailto:lavanya@example.com"
+            href="mailto:narelavanya2005@gmail.com"
             className="mt-5 flex items-center gap-3 rounded-xl border border-border bg-foreground/5 px-4 py-3 transition hover:border-secondary/40"
           >
             <div className="grid h-10 w-10 place-items-center rounded-lg bg-gradient-primary text-primary-foreground">
@@ -41,7 +41,7 @@ export function Contact() {
             </div>
             <div>
               <div className="text-xs uppercase tracking-wide text-muted-foreground">Email</div>
-              <div className="text-sm font-semibold text-foreground">lavanya@example.com</div>
+              <div className="text-sm font-semibold text-foreground">narelavanya2005@gmail.com</div>
             </div>
           </a>
 
@@ -52,7 +52,7 @@ export function Contact() {
                 { Icon: Github, label: "GitHub", href: "https://github.com/" },
                 { Icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/" },
                 { Icon: Code2, label: "HackerRank", href: "https://hackerrank.com/" },
-                { Icon: Mail, label: "Email", href: "mailto:lavanya@example.com" },
+                { Icon: Mail, label: "Email", href: "mailto:narelavanya2005@gmail.com" },
               ].map(({ Icon, label, href }) => (
                 <a
                   key={label}
