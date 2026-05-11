@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Section } from "./Section";
 import {
-  SiHtml5, SiCss3, SiJavascript, SiReact, SiPython,
+  SiHtml5, SiCss, SiJavascript, SiReact, SiPython,
   SiMysql, SiSpring, SiGit,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
@@ -9,7 +9,7 @@ import { VscVscode } from "react-icons/vsc";
 
 const SKILLS = [
   { name: "HTML", Icon: SiHtml5, color: "#e34f26" },
-  { name: "CSS", Icon: SiCss3, color: "#1572b6" },
+  { name: "CSS", Icon: SiCss, color: "#1572b6" },
   { name: "JavaScript", Icon: SiJavascript, color: "#f7df1e" },
   { name: "React", Icon: SiReact, color: "#61dafb" },
   { name: "Java", Icon: FaJava, color: "#ef8b2c" },
