@@ -100,7 +100,10 @@ export function Hero() {
               Contact Me
             </a>
             <a
-              href="#"
+              href="/LavanyaNare_resume.pdf"
+              download="LavanyaNare_resume.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
               className="inline-flex items-center gap-2 rounded-xl border border-secondary/40 bg-secondary/10 px-5 py-3 text-sm font-semibold text-secondary transition hover:bg-secondary/20"
             >
               <Download className="h-4 w-4" />
