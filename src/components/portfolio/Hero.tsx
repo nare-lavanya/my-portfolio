@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { ArrowRight, Download, Mail, Github, Linkedin, Code2, Sparkles } from "lucide-react";
 import lavanyaImg from "@/assets/lavanya.jpeg";
+import resumePdf from "@/assets/LavanyaNare_resume.pdf?url";
 
 const ROLES = [
   "Full Stack Developer",
@@ -100,7 +101,7 @@ export function Hero() {
               Contact Me
             </a>
             <a
-              href="/LavanyaNare_resume.pdf"
+              href={resumePdf}
               download="LavanyaNare_resume.pdf"
               target="_blank"
               rel="noreferrer noopener"
